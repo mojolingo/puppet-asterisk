@@ -1,5 +1,5 @@
 class asterisk(
-  $packager = 'digium,
+  $packager = 'digium',
   $version  = '1.8',
 ) {
 
