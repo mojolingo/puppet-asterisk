@@ -1,4 +1,4 @@
-name 'asterisk'
+name 'mojolingo-asterisk'
 version '0.1.0'
 source 'git://github.com/mojolingo/asterisk.git'
 author 'Ben Klang'
