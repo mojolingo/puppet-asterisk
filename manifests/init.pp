@@ -3,7 +3,7 @@ class asterisk(
   $version  = '1.8',
 ) {
 
-  asterisk::source($packager)
+  asterisk::source { $packager: }
 
   package { "asterisk-${version}":
     # TODO Support CentOS/RedHat

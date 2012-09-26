@@ -1,6 +1,4 @@
-define asterisk::source(
-  $packager = 'digium',
-) {
+define asterisk::source() {
   case $operatingsystem {
     debian, ubuntu: {
       case $packager {
